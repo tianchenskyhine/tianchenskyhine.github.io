@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html 
+  lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+<link rel="stylesheet" href="/css/layout.css">
+ 
+    <title> 分类：0721 -  天晨の小站</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"
+    />
+    <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
+    <!-- lazyload -->
+    <script src="https://unpkg.com/lazysizes@5.1.0/lazysizes.min.js"></script>
+    <!-- smooth-scrolling -->
+    <script src="https://unpkg.com/smooth-scrolling.js@1.0.0"></script>
+    <!-- highlight -->
+    <link
+      rel="stylesheet"
+      href="//unpkg.com/@highlightjs/cdn-assets@11.6.0/styles/atom-one-dark.min.css"
+    />
+    <script src="//unpkg.com/@highlightjs/cdn-assets@11.6.0/highlight.min.js"></script>
+    <!-- 预置 kiraicon -->
+    
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css">
+ 
+    <link
+      rel="shortcut icon"
+      href="https://pic.imgdb.cn/item/66b5d770d9c307b7e977ec60.jpg"
+      type="image/png"
+    />
+    
+<link rel="stylesheet" href="/deps/css/APlayer.min.css">
+  
+<script src="/deps/js/APlayer.min.js"></script>
+<script src="/deps/js/Meting.min.js"></script>
+
+  <meta name="generator" content="Hexo 7.3.0"></head>
+
+  <body>
+    <div
+      class="kira-background"
+      style="background-image: url('https://pic.imgdb.cn/item/66b6f11fd9c307b7e96ac49d.jpg')"
+    ></div>
+    <div class="kira-header">
+  <a
+    class="kira-drawer-button mdui-ripple"
+    title="导航栏"
+    onclick="document.querySelector('.kira-sidebar-modal').classList.add('show');document.querySelector('.kira-sidebar#sidebar').classList.add('show');"
+  >
+    <i class="kirafont icon-menu"></i>
+  </a>
+  <a href="/" title="天晨の小站">
+    <img src="https://pic.imgdb.cn/item/66b5d770d9c307b7e977ec60.jpg" alt="天晨" />
+  </a>
+</div>
+
+<!-- 引入 GalMenu CSS -->
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/css/GalMenu.css"
+/>
+
+<!-- 引入 jQuery -->
+<script
+  type="text/javascript"
+  src="/js/jquery.min.js"
+></script>
+
+<!-- 引入 GalMenu JS -->
+<script type="text/javascript" src="/js/GalMenu.js"></script>
+
+    <div class="kira-body">
+      <div class="kira-sidebar" id="sidebar">
+	<div class="kira-avatar mdui-ripple">
+		<a target="_blank" rel="noopener" href="https://pic.imgdb.cn/item/66b5d770d9c307b7e977ec60.jpg" title="天晨">
+			<img
+				src="https://pic.imgdb.cn/item/66b5d770d9c307b7e977ec60.jpg"
+				alt="天晨"
+			/>
+		</a>
+	</div>
+	<div class="kira-count">
+		<div><span>文章</span>3</div>
+		<div><span>标签</span>3</div>
+		<div><span>分类</span>3</div>
+	</div>
+	<div class="kira-list">
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/"
+			title="回到首页"
+		>
+			<i
+				class="kirafont
+					
+						icon-home
+					"
+			></i>
+			<div class="kira-list-item-content">
+				回到首页
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/archive.html"
+			title="文章归档"
+		>
+			<i
+				class="kirafont
+					
+						icon-container
+					"
+			></i>
+			<div class="kira-list-item-content">
+				文章归档
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/about.html"
+			title="关于本人"
+		>
+			<i
+				class="kirafont
+					
+						icon-user
+					"
+			></i>
+			<div class="kira-list-item-content">
+				关于本人
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/friends.html"
+			title="我的朋友"
+		>
+			<i
+				class="kirafont
+					
+						icon-team
+					"
+			></i>
+			<div class="kira-list-item-content">
+				我的朋友
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1he4y1w7wB"
+			title="右键惊喜"
+		>
+			<i
+				class="kirafont
+					
+						icon-search
+					"
+			></i>
+			<div class="kira-list-item-content">
+				右键惊喜
+			</div>
+		</a>
+		
+	</div>
+	<aside id="kira-sidebar">
+		
+			<div class="kira-widget-wrap">
+	<div class="kira-widget kira-social">
+		
+			<a
+				class="mdui-ripple"
+				href="https://space.bilibili.com/227583012"
+				target="_blank"
+				mdui-tooltip="{content: '哔哩哔哩'}"
+				style="color: rgb(231, 106, 141); background-color: rgba(231, 106, 141, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-bilibili
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://bgm.tv/user/tianchenskyhine"
+				target="_blank"
+				mdui-tooltip="{content: 'Bangumi'}"
+				style="color: rgb(255,192,203); background-color: rgba(255,192,203, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-user
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://github.com/tianchenskyhine/"
+				target="_blank"
+				mdui-tooltip="{content: 'GitHub'}"
+				style="color: rgb(25, 23, 23); background-color: rgba(25, 23, 23, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-github
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://steamcommunity.com/profiles/76561199077019549/"
+				target="_blank"
+				mdui-tooltip="{content: 'Steam'}"
+				style="color: rgb(0,0,0); background-color: rgba(0,0,0, .50);"
+			>
+				<i
+					class="kirafont
+					
+						icon-link
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://tianchenskyhine.github.io/"
+				target="_blank"
+				mdui-tooltip="{content: 'Blog'}"
+				style="color: rgb(0,255,0); background-color: rgba(0,255,0, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-home
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=3307924843&website=www.oicqzone.com"
+				target="_blank"
+				mdui-tooltip="{content: 'QQ'}"
+				style="color: rgb(49, 174, 255); background-color: rgba(49, 174, 255, .1);"
+			>
+				<i
+					class="kirafont
+					
+						icon-QQ
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://qm.qq.com/q/S0txSS6SOu"
+				target="_blank"
+				mdui-tooltip="{content: 'GAL交流群'}"
+				style="color: rgb(49, 174, 255); background-color: rgba(49, 174, 255, .1);"
+			>
+				<i
+					class="kirafont
+					
+						icon-team
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="/chen2641729824@gmail.com"
+				target="_blank"
+				mdui-tooltip="{content: 'Email'}"
+				style="color: rgb(0,0,255); background-color: rgba(0,0,255, .1);"
+			>
+				<i
+					class="kirafont
+					
+						icon-container-fill
+					"
+				></i>
+			</a>
+		
+	</div>
+</div>
+
+		
+			
+  <div class="kira-widget-wrap">
+    <h3 class="kira-widget-title">分类</h3>
+    <div class="kira-widget">
+      <ul class="category-list">
+        
+        
+
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/0721/">
+              0721
+            </a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/回忆录/">
+              回忆录
+            </a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/游戏/">
+              游戏
+            </a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+		
+			
+	<div class="kira-widget-wrap">
+		<div id="randomtagcloud" class="kira-widget tagcloud kira-rainbow">
+			<a href="/tags/0721/" style="font-size: 10px;">0721</a> <a href="/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/" style="font-size: 10px;">回忆录</a> <a href="/tags/%E6%B8%B8%E6%88%8F/" style="font-size: 10px;">游戏</a>
+		</div>
+		
+	</div>
+
+
+		
+			
+	<div class="kira-widget-wrap">
+		<h3 class="kira-widget-title">
+			文章归档
+		</h3>
+		<div class="kira-widget">
+			<ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/">2024</a><span class="archive-list-count">3</span></li></ul>
+		</div>
+	</div>
+
+
+		
+	</aside>
+	<div class="kira-copyright">
+		&copy; 2024
+		<a href="/">天晨</a>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> &
+		<a href="https://github.com/ch1ny/kira-hexo/" target="_blank">Kira-Hexo</a>
+		<br />
+		
+			<a
+				href="https://beian.miit.gov.cn/"
+				target="_blank"
+			>
+				下北泽ICP备1145141919号-810
+			</a>
+		
+		   你在那里吗？我就在这里。
+	</div>
+</div>
+<div
+	class="kira-sidebar-modal"
+	id="sidebar-modal"
+	onclick="(function(self) {
+		self.classList.remove('show');
+		document.querySelector('.kira-sidebar.show#sidebar').classList.remove('show');
+	})(this)"
+></div>
+      <div class="kira-content">
+        <div id="kira-top-header"></div>
+        <div class="kira-main-content"><div class="kira-posts">
+    
+        <div class="kira-post">
+            <a href="/2024/08/10/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
+                
+                <div
+                    class="kira-post-cover mdui-ripple"
+                    style="padding-bottom: '56.25%'"
+                >
+                    <img
+                        data-src="https://pic.imgdb.cn/item/66b6f0fed9c307b7e96aa645.jpg"
+                        data-sizes="auto"
+                        alt="第一篇文章"
+                        class="lazyload kira-post-cover-image"
+                    />
+                    <h1>第一篇文章</h1>
+                </div>
+                
+            </a>
+
+            <div class="kira-post-meta kira-rainbow">
+                <a>
+                    <i class="kirafont icon-calendar-fill"></i>
+                    2024年08月10日
+                </a>
+                <a>
+                    <i class="kirafont icon-edit-fill"></i>
+                    29 字
+                </a>
+                <a>
+                    <i class="kirafont icon-time-circle-fill"></i>大概
+                    1 分钟
+                </a>
+            </div>
+    
+            
+        </div>
+        <div class="kira-hr"></div>
+    
+</div>
+</div>
+      </div>
+      <div class="kira-right-column">
+	<a onclick="document.querySelector('#kira-top-header').scrollIntoView({behavior: 'smooth'});" class="kira-backtotop" aria-label="回到顶部" title="回到顶部">
+		<button class="mdui-fab mdui-ripple">
+			<i class="kirafont icon-caret-up"></i>
+		</button>
+	</a>
+</div>
+
+    </div>
+
+    <!-- 引入 mouse-firework 库 -->
+    <script src="https://cdn.jsdelivr.net/npm/mouse-firework@latest/dist/index.umd.js"></script>
+    <script>
+      firework({
+        excludeElements: ["a"],
+        particles: [
+          {
+            shape: "polygon",
+            move: ["emit", "rotate"],
+            easing: "easeOutExpo",
+            colors: ["#ff324a", "#31ffa6", "#206eff", "#ffff99"],
+            number: 30,
+            duration: [1200, 1800],
+            shapeOptions: {
+              radius: [16, 32],
+              sides: 5,
+            },
+          },
+          {
+            shape: "polygon",
+            move: ["diffuse", "rotate"],
+            easing: "easeOutExpo",
+            colors: ["#FFB6C1"],
+            number: 3,
+            duration: [1200, 1800],
+            shapeOptions: {
+              radius: 20,
+              alpha: 0.5,
+              lineWidth: 6,
+              sides: 5,
+            },
+          },
+        ],
+      });
+    </script>
+
+    <div class="galMenu galRing">
+      <div class="circle" id="gal">
+        <div class="ring">
+          <a href="index.html" title="主页" class="menuItem">主页</a>
+          <a href="archive.html" title="归档" class="menuItem">归档</a>
+          <a href="about.html" title="介绍" class="menuItem">介绍</a>
+          <a href="friends.html" title="友链" class="menuItem">友链</a>
+          <a
+            target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV194411q7Nq"
+            title="别点"
+            class="menuItem"
+            >别点</a
+          >
+          <a href="#" title="置顶" class="menuItem">置顶</a>
+        </div>
+        <audio id="galAudio" src="audio/ice.mp3"></audio>
+      </div>
+    </div>
+    <div id="overlay" style="opacity: 1; cursor: pointer"></div>
+
+    <!-- 添加 GalMenu 相关的 CSS -->
+    <style>
+      .ring a:nth-of-type(1) {
+        background-image: url("/images/1.png");
+      }
+      .ring a:nth-of-type(2) {
+        background-image: url("/images/2.png");
+      }
+      .ring a:nth-of-type(3) {
+        background-image: url("/images/3.png");
+      }
+      .ring a:nth-of-type(4) {
+        background-image: url("/images/4.png");
+      }
+      .ring a:nth-of-type(5) {
+        background-image: url("/images/5.png");
+      }
+      .ring a:nth-of-type(6) {
+        background-image: url("/images/6.png");
+      }
+    </style>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("body").galMenu({
+          menu: "galRing", // 指定使用的菜单样式
+          click_to_close: true, // 点击遮罩层时是否关闭右键菜单
+          stay_open: false, // 是否点击菜单项后一直显示右键菜单
+        });
+      });
+    </script>
+  </body>
+</html>
